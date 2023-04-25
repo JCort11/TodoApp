@@ -22,7 +22,7 @@ export const TodoApp = () => {
                 ontoggleTodo={ handleToggleTodo }
                 />
             </div>
-            <div className="col-5">
+            <div className="col-4">
                 <h4>Add a Task:</h4>
                 <hr />
                 <TodoAdd onNewToDo={ handleNewTodo }/>
