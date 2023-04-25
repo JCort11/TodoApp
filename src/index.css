@@ -1,4 +1,7 @@
 body{
+  background-image: radial-gradient(rgba(77, 77, 191, 0.23) 2px, transparent 2px), radial-gradient(rgba(77, 77, 191, 0.23) 2px, transparent 2px);
+  background-position: 0 0, 12px 12px;
+  background-size: 24px 24px;
   background-color: #6b8996;
 }
 
@@ -18,3 +21,4 @@ body{
 #task1{
   background-color: #d8ddef;
 }
+
