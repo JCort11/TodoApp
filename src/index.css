@@ -1,4 +1,20 @@
 body{
-  background-color: gray;
+  background-color: #6b8996;
 }
 
+#title1{
+  margin-left: 5px;
+}
+
+#iteml{
+  background-color: #d8ddef;
+  margin-left: 10px;
+}
+
+#itemc:hover{
+  cursor: pointer;
+}
+
+#task1{
+  background-color: #d8ddef;
+}

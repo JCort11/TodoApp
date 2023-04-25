@@ -22,8 +22,8 @@ export const TodoAdd = ({ onNewToDo}) => {
 
     return (
     <form onSubmit={ onFormSubmit }>
-        <input type="text" placeholder="Add to do task" className="form-control" name='description' value={ description } onChange={ onInputChange }/>
-        <button type="submit" className="btn btn-outline-primary mt-1">Add</button>
+        <input type="text" placeholder="Add to do task" id='task1' className="form-control" name='description' value={ description } onChange={ onInputChange }/>
+        <button type="submit" className="btn btn-outline-warning mt-1">Add</button>
     </form>
   )
 }
